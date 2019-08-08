@@ -161,5 +161,4 @@ for (var caratempt = 1; caratempt < 7; caratempt++){
   }
   break;
 }
-var total = answers.length;
 alert ('Your correct answers: ' + answers.length);

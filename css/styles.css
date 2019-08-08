@@ -3,12 +3,14 @@ body{
 }
 
     h1{    
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Arvo', serif;
         text-align: center;
+        font-size: 250%;
+        margin-bottom: 0em;
+
     }
 
     img{
-        display: block;
         margin-left: auto;
         margin-right: auto;
         border: 2px;
@@ -17,26 +19,45 @@ body{
         height: auto;
 
     }
-    div{
+    #links{
         margin-left: auto;
         margin-right: auto;
         text-align: center;
         width: 800px;
         height: auto;
     }
+    .lists{
+        font-family: 'Arvo', serif;
+        align-content: space-around;
+
+    }
+    b{
+        font-size: 120%
+    }
 
     a{
+        font-family: 'Arvo', serif;
         text-align: center;
         color: rgb(99, 3, 3);
         font-size: 150%;
         font-weight: 200;
         margin-right: 1em;
     }
+    article{
+        text-align: auto;
+    }
     
-    section{
-        
+    p{
+        font-family: 'Arvo', serif;
     }
 
     nav{
         background-color: blue
+    }
+
+    iframe{
+        width: 500px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
     }
